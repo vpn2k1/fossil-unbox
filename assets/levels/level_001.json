@@ -1,0 +1,13 @@
+{
+  "id":1,"name":"Tyrannosaurus rex","speciesId":"trex",
+  "board":{"width":400,"height":280,"showSilhouette":true},
+  "settings":{"rotationEnabled":false,"snapRadius":30,"angleToleranceDegrees":15,"freeHints":3},
+  "crates":[{"id":"A","boneIds":["tail","torso"]},{"id":"B","boneIds":["legs","skull"]}],
+  "bones":[
+    {"id":"tail","label":"Đuôi","asset":"tail.png","targetX":78,"targetY":111,"width":138,"height":60,"targetAngle":0,"zIndex":1},
+    {"id":"legs","label":"Chân sau","asset":"legs.png","targetX":170,"targetY":172,"width":82,"height":102,"targetAngle":0,"zIndex":2},
+    {"id":"torso","label":"Lồng ngực","asset":"torso.png","targetX":216,"targetY":126,"width":156,"height":94,"targetAngle":0,"zIndex":3},
+    {"id":"skull","label":"Hộp sọ","asset":"skull.png","targetX":335,"targetY":99,"width":128,"height":67,"targetAngle":0,"zIndex":4}
+  ],
+  "reward":{"coins":50,"unlockMuseum":"trex"}
+}

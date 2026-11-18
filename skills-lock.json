@@ -1,0 +1,803 @@
+{
+  "version": 2,
+  "skills": {
+    "ai-behavior-trees-utility-ai": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "cf907aa8e339ca034ebd30a868148f7fa678dd3058f17636002772835612724a",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/disciplines/ai-behavior-trees-utility-ai/SKILL.md"
+    },
+    "audio-design": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "9cc7466f3e608710f6d6c56337f9ace788fb7569038c4dc26c8b30b2200c511d",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/disciplines/audio-design/SKILL.md"
+    },
+    "banner-design": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "7436a6e0b6dc3add7c12d5b6ef1ccd3d410dd7fd",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/banner-design/SKILL.md",
+      "computedHash": "4b22f6f48afc6fcd72e6f3ae106a4dca11b33b88221efded1f5c62d8f9afb50d"
+    },
+    "bevy-ecs": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "533044c130be9573c87e9eb93b7889a8c30300d3cdfb2361cef23ac471784285",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/other-engines/bevy-ecs/SKILL.md"
+    },
+    "brand": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "7436a6e0b6dc3add7c12d5b6ef1ccd3d410dd7fd",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/brand/SKILL.md",
+      "computedHash": "d5619310b76bd204efd2f8b3832f72b5a2899712be0ab94d1b4b671271419c54"
+    },
+    "camera-systems": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "eee6290a3ef6c74f2e0a4d4aac8545801201ac24fe01daf1684d46b6434fcfd7",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/disciplines/camera-systems/SKILL.md"
+    },
+    "card-game": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "9de67b390fb28839eb24c92aed311836e9ec45c0cd07df45f1fe9568b5429421",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/genres/card-game/SKILL.md"
+    },
+    "create-game-assets": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "9fa157004c040ab3de38ac8cc3a7a49238821fcde7e384e0b94b10657c6e6a53",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/disciplines/create-game-assets/SKILL.md"
+    },
+    "defold-core": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "25e6c8618c2ce81b55219fdbce8b95860ee9fa6165fc869a69da8deb4b6c0176",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/other-engines/defold-core/SKILL.md"
+    },
+    "design": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "7436a6e0b6dc3add7c12d5b6ef1ccd3d410dd7fd",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/design/SKILL.md",
+      "computedHash": "52615ebb7dc66ad7cb627ca8c91da4067b966c2f640a4beaa6856234372e21d0"
+    },
+    "design-system": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "7436a6e0b6dc3add7c12d5b6ef1ccd3d410dd7fd",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/design-system/SKILL.md",
+      "computedHash": "9efdc106c73d8d298b5a90d55c56995840a37f754fb9d498d14e6562bdaadc23"
+    },
+    "dialogue-systems": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "6faa9c0781da4739e4273864a820a969c03c10f293845cca2431ecade3b94060",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/disciplines/dialogue-systems/SKILL.md"
+    },
+    "eas-app-stores": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "720f43dcfae249de10df2169a9f48843558e09bc7d9afff80902a227fdd87fe5",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/eas-app-stores/SKILL.md"
+    },
+    "eas-hosting": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "e416a1af14692cebb67a112e47b3e285096075d87b09572186d91341ea8945ee",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/eas-hosting/SKILL.md"
+    },
+    "eas-observe": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "2cbe5c96b4ecc43c66c7c3242da1589fcedb8cfb9f4d3816c9e3cb7594f7f64d",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/eas-observe/SKILL.md"
+    },
+    "eas-simulator": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "fa7ad9c43f69dfad87552861ec3468db149990048a009f7f732c8127be3e3c95",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/eas-simulator/SKILL.md"
+    },
+    "eas-update": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "c09f10dbadbc8799f868a8782e158a7853d60efe438a9822bd6639bdae863950",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/eas-update/SKILL.md"
+    },
+    "eas-update-insights": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "cb6774c5e88b98beccb0c0f84207edbadbcc42f6c6e130082bfd39f8ba020f1a",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/eas-update-insights/SKILL.md"
+    },
+    "eas-workflows": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "d8ed69300f50bcd1f153c8cf0149d5be0018b4a5c834680d14e2b09b4d734431",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/eas-workflows/SKILL.md"
+    },
+    "ebitengine-game": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "2a58eae214ce02a7ccec816b64fea35e10c75b818d678b45ca485591b4e1a117",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/ebitengine/ebitengine-game/SKILL.md"
+    },
+    "expo-animation": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "7f28a298611a9440484836c2d02366bff5cdbe4c1c4cc2a1965ffe2eb075ffae",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/expo-animation/SKILL.md"
+    },
+    "expo-app-clip": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "a7d540a72f701e18a7464f600bdfacddd0a241622b0fe3d6a40ef5a14ad5c28d",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/expo-app-clip/SKILL.md"
+    },
+    "expo-brownfield": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "3f9c60e85959ef08a89878998a03d296d33350f9581a1a06680d4afd23686578",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/expo-brownfield/SKILL.md"
+    },
+    "expo-data-fetching": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "5566b445229ee4751aca90f0f08e06af0c53aa16d2227f20e9137c264cb9bc6e",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/expo-data-fetching/SKILL.md"
+    },
+    "expo-design-system": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "e2fe37e041433e6f73702cc7dd8e8f2736c5e6fa62ce32cccc630c5f4ce76309",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/expo-design-system/SKILL.md"
+    },
+    "expo-dev-client": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "104418366028d28c2e713303131e25c84cd480a50451bb2a8ab4c6a864a928df",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/expo-dev-client/SKILL.md"
+    },
+    "expo-dom": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "eb211170e3cd6b72c6bed26c18586a5ad6d48a45fc481f1b411682c4f7c39ae2",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/expo-dom/SKILL.md"
+    },
+    "expo-examples": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "3021281ea809d9974e83691c2893a793c8fe36c4ef292c8dabc52c98f69c79fa",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/expo-examples/SKILL.md"
+    },
+    "expo-migrate-module": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "da5d3de10dc6503f8b0eb8b6cc2d8b371baddcd56b76968c57cf96d5eedf135f",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo-experiments/skills/expo-migrate-module/SKILL.md"
+    },
+    "expo-module": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "0b34d929db086777de7134db7fa7c7264e86152ec203feb255ae0bab82d01e69",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/expo-module/SKILL.md"
+    },
+    "expo-native-ui": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "500813b2c531ea88b2cc72206ff395c4453a15cc679b14cd78bf5116923ad541",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/expo-native-ui/SKILL.md"
+    },
+    "expo-overview": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "06a4c16a5e14819b54fd419f2009119ffcb6f8694b067ad589255cf03f5c6671",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/expo-overview/SKILL.md"
+    },
+    "expo-project-structure": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "1d8d0089c3f367cda801f2b675d8df6b773806b62ffb8d88b390bed9f10fa607",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/expo-project-structure/SKILL.md"
+    },
+    "expo-router": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "9c3a05a145ceec25ccca5c733b9403b03c7174c60c48c017009c2c5a1a68c8cb",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/expo-router/SKILL.md"
+    },
+    "expo-skill-eval": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "640c580a7cbf133477b5cb44cecd81bfc73dade6fe2eb34dd083f5de857ea18a",
+      "commit": "dfdebcc",
+      "skillPath": ".claude/skills/expo-skill-eval/SKILL.md"
+    },
+    "expo-ui": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "7cc34e3ee3d44ee6f754f4cc57bf64d18225ec8d8993d9540a33b9779c540de4",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/expo-ui/SKILL.md"
+    },
+    "expo-upgrade": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "e7963891b55078eec241470f30ebd45afe0d3b7f1363d62e26f5af1b32382f7e",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/expo-upgrade/SKILL.md"
+    },
+    "expo-web-to-native": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "computedHash": "929ec0dd459885036ea615ee65199983afa9ca1bb624c6fb116ce4eabd6a6643",
+      "commit": "dfdebcc",
+      "skillPath": "plugins/expo/skills/expo-web-to-native/SKILL.md"
+    },
+    "fps-shooter": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "b3e440060bbbeb1a3b0a6fc3b9db8e12acdeaaab99d436427ba1a9d93bc826e1",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/genres/fps-shooter/SKILL.md"
+    },
+    "game-ai": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "f8e19076e9f79447fc94b553c656d15e8461e21d896e7d22b53c45a18c6e6bc6",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/disciplines/game-ai/SKILL.md"
+    },
+    "game-docs": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "d1bbdebee0ecef2ef564f5de012ba747be3f4ec3ea15b5fa80d64f85a06003dd",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/workflows/game-docs/SKILL.md"
+    },
+    "game-feel": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "f0a2becd199feabc7e8720f8f5626c84571ef763a0a5edefcdae8a039ce64338",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/disciplines/game-feel/SKILL.md"
+    },
+    "game-jam": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "c397d3451c85eb635ce44b83578ef649c7d1bc706b00fe76ede71fd0890550eb",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/workflows/game-jam/SKILL.md"
+    },
+    "game-ui-ux": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "8bf85f22ef57c78fd2a5b14c086e6cb4a1a0f6b729111abeed29be96cf615610",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/disciplines/game-ui-ux/SKILL.md"
+    },
+    "godot-2d-movement": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "2ff84d078a76cfd187a0a11ecf60857bcad8e3d09854f567f4dce9aec3cdcc22",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/godot/godot-2d-movement/SKILL.md"
+    },
+    "godot-3d-essentials": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "105b26e0e4e9f520864f55f6814c350f7fe8f4518424b03dc2b2856d42dcc445",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/godot/godot-3d-essentials/SKILL.md"
+    },
+    "godot-animation": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "9fe673dddf0d064639bb698aa8873a8f943f4153a3ed0fe01d14da9722d25efd",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/godot/godot-animation/SKILL.md"
+    },
+    "godot-audio": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "591e0f74e0e9c4b77fcc07c4e5b7859f787f5a5094fbe968b90bf827d0f24e4d",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/godot/godot-audio/SKILL.md"
+    },
+    "godot-csharp": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "b2f0a81e98cbd58f6087926f70f5618d60ae02175356c938d740c800d8e63c62",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/godot/godot-csharp/SKILL.md"
+    },
+    "godot-export": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "9dae896af2918decf72f34de90234919c369ef8a0ba5349f008c8354a6385af6",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/godot/godot-export/SKILL.md"
+    },
+    "godot-gdscript": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "4115912dba21bd262930ab225979a74757eae97ced609c20d3370ddae61f8eaa",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/godot/godot-gdscript/SKILL.md"
+    },
+    "godot-gdscript-headless-testing": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "9904c82a06e7ca132eb664c8110fa52ed4835ce01f9fe0a5942ee6e23d732d59",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/godot/godot-gdscript-headless-testing/SKILL.md"
+    },
+    "godot-multiplayer": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "61fb0aa6d65b88a61c94c866b8abf3d0ba4313ef6ad849f75012c73d0967086d",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/godot/godot-multiplayer/SKILL.md"
+    },
+    "godot-nodes-scenes": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "7c9ce532ea7b2b16d862a3c94754c4e0b6a6f7a112b6b731b4fb1a3cb2e86021",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/godot/godot-nodes-scenes/SKILL.md"
+    },
+    "godot-physics": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "af20d88ef4d59341ca45b44b07324d45295d880bfd3f4e73250c5834b601e1cb",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/godot/godot-physics/SKILL.md"
+    },
+    "godot-resources": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "e557db51b74fd8bf66611f46af75c77da0ada0411f9b7353b9f066922e1d74c4",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/godot/godot-resources/SKILL.md"
+    },
+    "godot-shaders": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "a48e5b6b7506d2de9892d1483b52518efece6768ed9330a66777b4b4ba3e083c",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/godot/godot-shaders/SKILL.md"
+    },
+    "godot-signals-groups": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "3d07f3dd6dd7837254a5e7f0e9f0e678da74761c0284e7585c49c839a8e6ee88",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/godot/godot-signals-groups/SKILL.md"
+    },
+    "godot-tilemap": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "088f1b58ca4b41fe7bdeb048c6ae5b91cd3a45a83a804215047839759ea64c96",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/godot/godot-tilemap/SKILL.md"
+    },
+    "godot-ui-control": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "7bc39fe9a56fc1daa68fb2c343766b79f08d96e33301e8669439451c711146da",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/godot/godot-ui-control/SKILL.md"
+    },
+    "input-systems": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "c155987a41e88c82d0126dbf0959114cae1e0892695777aa58501f31fd363090",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/disciplines/input-systems/SKILL.md"
+    },
+    "interface-design": {
+      "source": "Dammyjay93/interface-design",
+      "sourceType": "github",
+      "computedHash": "1491bb966a2c289550e0d6eb25c19b0570ead479240f6b2ba5766d94599ea744",
+      "commit": "2f9be32",
+      "skillPath": ".claude/skills/interface-design/SKILL.md"
+    },
+    "itch-publish": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "0c16d4088649214584a37b73c78a03f99cf4d68744beee86923fea6f6a1239a8",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/workflows/itch-publish/SKILL.md"
+    },
+    "level-design": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "f150b2062dff70863a6efcbf51e2b574acee303aac7f7676e384980db5947b82",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/disciplines/level-design/SKILL.md"
+    },
+    "love2d-core": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "eff3257a63b400cfe82db3e147b1366628b0d09c9c806838648e7275647f8541",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/other-engines/love2d-core/SKILL.md"
+    },
+    "mobile-design": {
+      "source": "RubenGlez/mobile-design",
+      "sourceType": "github",
+      "computedHash": "bcb440b288e40b2548716d985d6d6f2067ca3139e80b3a38693de78a65e98d20",
+      "commit": "9d220f7",
+      "skillPath": "SKILL.md"
+    },
+    "performance-optimization": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "a73d59038c278242bef4e1d80c9b1657ac472de3d68db88164e93d5c00f80197",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/disciplines/performance-optimization/SKILL.md"
+    },
+    "phaser-arcade-physics": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "f0f72f8423710b8e732a22217b40dc2d3619edfc91628f177052c9ec7cc8ca4b",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/web-engines/phaser-arcade-physics/SKILL.md"
+    },
+    "phaser-core": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "15f20e141070469f91a6eeef6f8fa3b50989f0f3d9e7f3792242166291786c38",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/web-engines/phaser-core/SKILL.md"
+    },
+    "physics-tuning": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "f77d7a97e3d2acad3310ac23ad7cf1cbe1e6e189f41a8c2cfe88bce07dd0bd93",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/disciplines/physics-tuning/SKILL.md"
+    },
+    "pixijs-rendering": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "bb7810f8ad3a3bd357fc62536d8479e3844602f2d952c29d015719c00d829b21",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/web-engines/pixijs-rendering/SKILL.md"
+    },
+    "platformer": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "8263a66bd765046450da7fbafba2f1324f13d8a0720fb1d52169caffb4e7f842",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/genres/platformer/SKILL.md"
+    },
+    "procedural-gen": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "a9dde927adcc87ebd61119413b7316b881b31ef21896d823088d461a0874b4fe",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/disciplines/procedural-gen/SKILL.md"
+    },
+    "prototype-fast": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "c1ccc257ef0f9b1a3c84d7cee01965fcbe51ecc338c0bb3ef20299888aff57ce",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/workflows/prototype-fast/SKILL.md"
+    },
+    "puzzle": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "8487e630e06625a42cf805e72f30446731b7e2dc497c5eff9815be26d3d77a54",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/genres/puzzle/SKILL.md"
+    },
+    "pygame-core": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "79515d86e1f5e9047c6492f3b18ffac0982935813cd71c4830114d42f849c25e",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/other-engines/pygame-core/SKILL.md"
+    },
+    "roblox-characters": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "43966391ff06dc81ce253848b0855d8230b04d6f4388cac533ac951217557a0a",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/other-engines/roblox-characters/SKILL.md"
+    },
+    "roblox-datastores": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "5e54b58a76f0a00b9b6a68c9008c849bc4c875e0a617c3462c3ec658626c3305",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/other-engines/roblox-datastores/SKILL.md"
+    },
+    "roblox-luau": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "07d757c3fad5c70e4643686195b56f5b792cf792bd9c994a04c2d74811f601e6",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/other-engines/roblox-luau/SKILL.md"
+    },
+    "roblox-networking": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "9ad78a87dfe788eb4ac4ca8148235e013f3eb5c12b7ab6b2ab7bd1cae55376fe",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/other-engines/roblox-networking/SKILL.md"
+    },
+    "roblox-physics": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "4586dc52f97c72a46b8cb1197abb2e04fc3b2dee1a54d1c554eac90c4ef374e7",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/other-engines/roblox-physics/SKILL.md"
+    },
+    "roblox-simulator-economy": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "b5edb77bcf830087413d756c4b8cc4b027371a3f9a8c59addcdc28991461c106",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/other-engines/roblox-simulator-economy/SKILL.md"
+    },
+    "roblox-studio-workflow": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "7cf3a90fffe2492a736e721dc135fa51fc0bd0fe40fa67e532e0f54440f28604",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/other-engines/roblox-studio-workflow/SKILL.md"
+    },
+    "roblox-ui": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "b7522b2da6fd24140d46be0b7d5e6ecc88914c874498a285c86258f05fa2d654",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/other-engines/roblox-ui/SKILL.md"
+    },
+    "roguelike": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "4d6e1b811e639a4a7b768ad2fd3fc52dbfabee90d1d6c306e126678699e01aa6",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/genres/roguelike/SKILL.md"
+    },
+    "router": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "90066d046b8c4d57f3d75471885ed9e6e34c31e87385308929792f2d1ead8374",
+      "commit": "c6ca6c4",
+      "skillPath": "router/SKILL.md"
+    },
+    "rpg": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "b92276374679e42258a9d621c4ac80359313ab6fb2e983b30bd6b1dcbc5b619b",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/genres/rpg/SKILL.md"
+    },
+    "save-systems": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "5248469a72bb24bc02e137d59b92ae1286be94ccc76a0ef5560140545517f875",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/disciplines/save-systems/SKILL.md"
+    },
+    "shader-programming": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "f5722dbca5e9fa6a8954f79e7735ff244c22702f59b0b7c3f9f6bdd5beabba18",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/disciplines/shader-programming/SKILL.md"
+    },
+    "slides": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "7436a6e0b6dc3add7c12d5b6ef1ccd3d410dd7fd",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/slides/SKILL.md",
+      "computedHash": "059825b15a508a5f1533ab646f968ffcbcdbb8eadd76c2d122151bfbcf19d287"
+    },
+    "steam-publish": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "d274d04aef6fabd96e14c1516a5d2ba363b8531817c9366c9ae7c9183b4091e3",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/workflows/steam-publish/SKILL.md"
+    },
+    "survival-crafting": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "92be358e06dd4cf07b26394147a5a84b391ab18a9011da5c2f2af90bd6915588",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/genres/survival-crafting/SKILL.md"
+    },
+    "threejs-gltf-loading": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "62f37032641f7d504b63f43a4b2fbf7a7ef37009461086049c927bd8bfc65c0c",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/web-engines/threejs-gltf-loading/SKILL.md"
+    },
+    "threejs-materials-lighting": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "c9e551ce59c90c4a788c5d848151f28539342b1e4df35e0921c2641dd6088221",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/web-engines/threejs-materials-lighting/SKILL.md"
+    },
+    "threejs-scene-setup": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "4a8c3ecad9eaa8d55ca2436c29085960c439a547082ba8586c1e73a528338cb2",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/web-engines/threejs-scene-setup/SKILL.md"
+    },
+    "tower-defense": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "9003b6f88691bebe25d43e0b915adc6b96e30d0b924c6d0afe154f6bf79d0144",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/genres/tower-defense/SKILL.md"
+    },
+    "ui-styling": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "7436a6e0b6dc3add7c12d5b6ef1ccd3d410dd7fd",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/ui-styling/SKILL.md",
+      "computedHash": "a598d8ad69832a394d4040e4c94e4b9c7b8daf2b1fdca050929058f7b70bc816"
+    },
+    "ui-ux-pro-max": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "7436a6e0b6dc3add7c12d5b6ef1ccd3d410dd7fd",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/ui-ux-pro-max/SKILL.md",
+      "computedHash": "9700c4f6c9460810a4158f3a6d3238d8ee58bc682e0aa7190c2c333cf6c666b1"
+    },
+    "unity-animation": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "a386c3152eb91c9bad6f3ea2f8956511a15c9851a08ad63c49efd54ec1c9ed3b",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/unity/unity-animation/SKILL.md"
+    },
+    "unity-build-pipeline": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "a8a86f2833297c467a36927a584faac7bf5e90265de92f088e6db86fcce3129b",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/unity/unity-build-pipeline/SKILL.md"
+    },
+    "unity-build-size": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "bd06c88125ab01304465c23ba9df5cdb7610b05949fe8569f4da5134a2cc8fb4",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/unity/unity-build-size/SKILL.md"
+    },
+    "unity-csharp-scripting": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "faebf524fafd23ad2c81f2b3e68a5a39a194fd3ba253fae62328a418fa1bff6c",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/unity/unity-csharp-scripting/SKILL.md"
+    },
+    "unity-input-system": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "194902ff61daae1f5d5ba5d1aa6bc0c51daf84111434f9f9652167a154944650",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/unity/unity-input-system/SKILL.md"
+    },
+    "unity-navmesh": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "1a83a4384377f921b30ccd4d2da7fd946182513e83a65595df50732674bae7c9",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/unity/unity-navmesh/SKILL.md"
+    },
+    "unity-physics": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "52c6ebe2118eacbf2a6b54d7027252b88392a296ad55be30a400496197a268ae",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/unity/unity-physics/SKILL.md"
+    },
+    "unity-scriptableobjects": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "3300a6ae44bfb282004abc4e22bc12e8d6f98f42656acf138d09bed50a9cf3fd",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/unity/unity-scriptableobjects/SKILL.md"
+    },
+    "unity-tilemap-2d": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "3040078ea5da2f074be634666279cffd4bfa38b1c6f077e4a5a4037bda14e379",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/unity/unity-tilemap-2d/SKILL.md"
+    },
+    "unreal-behavior-trees": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "597c9bd70f8c31743a8edac4fdac089bf43e2eee0524fa7bb324cf6f88ff363a",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/unreal/unreal-behavior-trees/SKILL.md"
+    },
+    "unreal-blueprints": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "3f782393876283ca7b71d676e76749b9a1fe501a1af2bcbf17946efff42e4547",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/unreal/unreal-blueprints/SKILL.md"
+    },
+    "unreal-cpp-gameplay": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "a17e39c7088b2691bab38e778689533f65dc8c436b5e5df7f13aa606fef15928",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/unreal/unreal-cpp-gameplay/SKILL.md"
+    },
+    "unreal-enhanced-input": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "843f7ce9988ae29f73f1bd59b1f585a50eea97d360c473f16f93827e603ef890",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/unreal/unreal-enhanced-input/SKILL.md"
+    },
+    "unreal-niagara": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "f037a79376184737a09b86e0887ebd45ccbe09e4f632d07956eeb2c5586aeaac",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/unreal/unreal-niagara/SKILL.md"
+    },
+    "unreal-packaging": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "76980d515f63d14312d1775f312ee6fc6b73373400194f963088c430e2d1db77",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/unreal/unreal-packaging/SKILL.md"
+    },
+    "visual-novel": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "computedHash": "dc8232f6048f8b69b207bd9f97714290c57c549112a12524cd94067991ea0807",
+      "commit": "c6ca6c4",
+      "skillPath": "skills/genres/visual-novel/SKILL.md"
+    }
+  }
+}

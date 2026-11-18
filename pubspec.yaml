@@ -1,0 +1,21 @@
+name: fossil_unbox
+description: Xưởng phục dựng hóa thạch ngoại tuyến.
+publish_to: none
+version: 0.1.0+1
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.21.0
+  flame_audio: ^2.10.0
+  shared_preferences: ^2.3.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/levels/
+    - assets/audio/
